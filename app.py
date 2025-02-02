@@ -11,7 +11,7 @@ db = mysql.connector.connect(
     host="junction.proxy.rlwy.net",
     user="root",
     password="eBBpGdBntzGCZzaIgslttpDwaTQiUyFA",
-    database="railway"
+    database="railway",
     port=3306
 )
 
