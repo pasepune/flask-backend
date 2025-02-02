@@ -7,10 +7,10 @@ CORS(app)  # Enable CORS for all routes
 
 # MySQL configuration
 db = mysql.connector.connect(
-    host="localhost",
+    host="junction.proxy.rlwy.net",
     user="root",
-    password="root",
-    database="mydatabase"
+    password="eBBpGdBntzGCZzaIgslttpDwaTQiUyFA",
+    database="railway"
 )
 
 cursor = db.cursor()
